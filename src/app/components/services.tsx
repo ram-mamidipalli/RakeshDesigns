@@ -56,9 +56,6 @@ export function Services() {
       <div className="container">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Our Services</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            From a single logo to a complete brand overhaul, we offer tailored services to meet your creative needs. Click a service to get in touch.
-          </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           {services.map((service) => (
