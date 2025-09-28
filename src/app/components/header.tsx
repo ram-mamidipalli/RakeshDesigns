@@ -24,13 +24,13 @@ export function Header() {
           </Link>
         </div>
         
-        <nav className="hidden items-center gap-6 text-sm md:flex">
+        <nav className="hidden items-center justify-center flex-1 text-sm md:flex">
           <button onClick={() => scrollTo("services")} className="transition-colors hover:text-foreground/80 text-foreground/60">
             Services
           </button>
         </nav>
 
-        <div className="flex items-center justify-end mr-4">
+        <div className="flex items-center justify-end">
           <Button onClick={() => scrollTo("booking")}>Book a Service</Button>
         </div>
       </div>
