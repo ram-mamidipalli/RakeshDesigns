@@ -2,28 +2,10 @@
 
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brush, Palette, MonitorSmartphone, Layers, Frame, Disc, Cake, Droplets } from "lucide-react";
+import { Layers, Frame, Disc, Cake, Droplets } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const services = [
-  {
-    title: "Logo Design & Identity",
-    description: "Crafting unique and memorable logos that define your brand's identity and make a lasting impression.",
-    icon: <Brush className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(p => p.id === 'service-logo-design'),
-  },
-  {
-    title: "Complete Branding Packages",
-    description: "Developing a cohesive brand strategy with style guides, color palettes, and typography that tell your story.",
-    icon: <Palette className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(p => p.id === 'service-branding'),
-  },
-  {
-    title: "Web & UI/UX Design",
-    description: "Designing intuitive and beautiful user interfaces for websites and applications that engage your audience.",
-    icon: <MonitorSmartphone className="h-8 w-8 text-primary" />,
-    image: PlaceHolderImages.find(p => p.id === 'service-web-design'),
-  },
   {
     title: "Flex Designing",
     description: "Professional flex designs for your business advertising. Price: ₹300 (design only).",
