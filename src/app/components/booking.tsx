@@ -15,7 +15,6 @@ import { Input } from "@/components/ui/input";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
 import { Label } from "@/components/ui/label";
 
 const bookingSchema = z.object({
@@ -38,22 +37,36 @@ const servicePackages = [
 
 export function Booking() {
   const [isLoading, setIsLoading] = useState(false);
-  const { toast } = useToast();
 
   const form = useForm<z.infer<typeof bookingSchema>>({
     resolver: zodResolver(bookingSchema),
+    defaultValues: {
+      name: "",
+      email: "",
+      projectBrief: "",
+    }
   });
 
-  const onSubmit = async (values: z.infer<typeof bookingSchema>) => {
+  const onSubmit = (values: z.infer<typeof bookingSchema>) => {
     setIsLoading(true);
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 2000));
-    console.log("Booking submitted:", values);
+
+    const serviceLabel = servicePackages.find(p => p.id === values.servicePackage)?.label || values.servicePackage;
+
+    const message = `Hello! I'd like to book a service with you.
+    
+*Service Package:* ${serviceLabel}
+*Name:* ${values.name}
+*Email:* ${values.email}
+*Preferred Date:* ${format(values.date, "PPP")}
+
+*Project Brief:*
+${values.projectBrief}`;
+
+    const whatsappUrl = `https://wa.me/+918978015826?text=${encodeURIComponent(message)}`;
+    
+    window.open(whatsappUrl, '_blank');
+
     setIsLoading(false);
-    toast({
-      title: "Booking Confirmed!",
-      description: `Thank you, ${values.name}! We've received your request and will be in touch shortly.`,
-    });
     form.reset();
   };
 
@@ -187,7 +200,7 @@ export function Booking() {
                 
                 <Button type="submit" size="lg" className="w-full" disabled={isLoading}>
                   {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
-                  Submit Booking Request
+                  Chat on WhatsApp
                 </Button>
               </form>
             </Form>
