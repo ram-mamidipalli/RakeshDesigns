@@ -9,7 +9,7 @@
     {
       "id": "service-logo-design",
       "description": "Example of a logo design project",
-      "imageUrl": "https://images.unsplash.com/photo-1716471330463-f475b00f0506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc1ODk2NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1716471330463-f475b00f0506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8fDE3NTg5NjY1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "logo design"
     },
     {
@@ -21,8 +21,14 @@
     {
       "id": "service-web-design",
       "description": "Example of a web design project",
-      "imageUrl": "https://images.unsplash.com/photo-1527443195645-1133f7f28990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWJzaXRlJTIwbW9ja3VwfGVufDB8fHx8MTc1OTAwMjc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1527443195645-1133f7f28990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWJzaXRlJTIwbW9ja3VwfGVufDB8fHx8fDE3NTkwMDI3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "website mockup"
+    },
+    {
+      "id": "hero-headphones",
+      "description": "Woman wearing headphones",
+      "imageUrl": "https://images.unsplash.com/photo-1684636098144-2cb2e1a8a3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFkcGhvbmVzJTIwd29tYW58ZW58MHx8fHwxNzU5MDM0NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "headphones woman"
     }
   ]
 }
