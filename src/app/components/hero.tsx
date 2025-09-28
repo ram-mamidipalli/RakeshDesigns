@@ -20,7 +20,7 @@ export function Hero() {
                         Crafting Visuals that Tell Your memories
                     </h1>
                     <p className="mt-4 text-lg text-muted-foreground">
-                        High-quality graphic design services to elevate your brand.
+                        High-quality graphic design services.
                     </p>
                     <Button size="lg" className="mt-8" onClick={scrollToBooking}>
                         Explore Services
