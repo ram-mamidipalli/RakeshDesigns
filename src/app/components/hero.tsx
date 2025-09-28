@@ -17,7 +17,7 @@ export function Hero() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div className="text-left">
                     <h1 className="text-4xl md:text-6xl font-bold font-headline tracking-tight text-primary">
-                        Crafting Visuals that Tell Your Story
+                        Crafting Visuals that Tell Your memories
                     </h1>
                     <p className="mt-4 text-lg text-muted-foreground">
                         High-quality graphic design services to elevate your brand.
