@@ -24,7 +24,7 @@ const services = [
     icon: <Disc className="h-8 w-8 text-primary" />,
   },
   {
-    title: "Social Media Posters",
+    title: "Social media posters/ Birthday sheets",
     description: "Eye-catching posters for birthdays and social media campaigns.",
     price: "₹250",
     icon: <Cake className="h-8 w-8 text-primary" />,
