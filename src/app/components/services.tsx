@@ -3,7 +3,6 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Layers, Frame, Disc, Cake, Droplets } from "lucide-react";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const services = [
   {
@@ -51,7 +50,7 @@ export function Services() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Our Services</h2>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 max-w-4xl mx-auto">
           {services.map((service) => (
             <Card key={service.title} className="flex flex-col transition-all hover:shadow-xl rounded-lg bg-card">
               <div className="p-6 flex flex-col flex-1">
