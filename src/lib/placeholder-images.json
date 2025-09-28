@@ -26,9 +26,9 @@
     },
     {
       "id": "hero-headphones",
-      "description": "Woman wearing headphones",
-      "imageUrl": "https://images.unsplash.com/photo-1684636098144-2cb2e1a8a3ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWFkcGhvbmVzJTIwd29tYW58ZW58MHx8fHwxNzU5MDM0NzU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "headphones woman"
+      "description": "Abstract graphic design",
+      "imageUrl": "https://images.unsplash.com/photo-1617695744007-68ef55752789?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNHx8Z3JhcGhpYyUyMGRlc2lnbnxlbnwwfHx8fDE3NTkwMzQ4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "graphic design"
     }
   ]
 }
