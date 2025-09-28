@@ -29,6 +29,36 @@
       "description": "Graphic designer working at a desk",
       "imageUrl": "https://images.unsplash.com/photo-1626785774573-4b799315345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxncmFwaGljJTIwZGVzaWduZXJ8ZW58MHx8fHwxNzU5MDM1MDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "graphic designer"
+    },
+    {
+      "id": "service-flex-design",
+      "description": "A flex banner for a business.",
+      "imageUrl": "https://images.unsplash.com/photo-1757483145276-67cba91fc4e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmbGV4JTIwYmFubmVyfGVufDB8fHx8MTc1OTAzNTU2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flex banner"
+    },
+    {
+      "id": "service-photoframes",
+      "description": "A collection of designed photoframes.",
+      "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaG90byUyMGZyYW1lc3xlbnwwfHx8fDE3NTkwMzU1Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photo frames"
+    },
+    {
+      "id": "service-cdps",
+      "description": "A creative display picture.",
+      "imageUrl": "https://images.unsplash.com/photo-1690687505782-b7cc62530e0e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9maWxlJTIwcGljdHVyZXxlbnwwfHx8fDE3NTg5MjQwNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "profile picture"
+    },
+    {
+      "id": "service-posters",
+      "description": "A birthday party poster.",
+      "imageUrl": "https://images.unsplash.com/photo-1698319298199-b81a54ced28a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YmlydGhkYXklMjBwb3N0ZXJ8ZW58MHx8fHwxNzU5MDM1NTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "birthday poster"
+    },
+    {
+      "id": "service-color-correction",
+      "description": "Before and after of a color corrected photo.",
+      "imageUrl": "https://images.unsplash.com/photo-1608015858041-f28d2514e8a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2xvciUyMGNvcnJlY3Rpb258ZW58MHx8fHwxNzU5MDM1NTY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "color correction"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Brush, Palette, MonitorSmartphone } from "lucide-react";
+import { Brush, Palette, MonitorSmartphone, Layers, Frame, Disc, Cake, Droplets } from "lucide-react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const services = [
@@ -23,6 +23,36 @@ const services = [
     description: "Designing intuitive and beautiful user interfaces for websites and applications that engage your audience.",
     icon: <MonitorSmartphone className="h-8 w-8 text-primary" />,
     image: PlaceHolderImages.find(p => p.id === 'service-web-design'),
+  },
+  {
+    title: "Flex Designing",
+    description: "Professional flex designs for your business advertising. Price: ₹300 (design only).",
+    icon: <Layers className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find(p => p.id === 'service-flex-design'),
+  },
+  {
+    title: "Photoframes",
+    description: "Custom photoframe designs to cherish your memories. Price: ₹500 - ₹3000 (based on size).",
+    icon: <Frame className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find(p => p.id === 'service-photoframes'),
+  },
+  {
+    title: "CDPs",
+    description: "Creative Common Display Pictures for your social profiles. Price: ₹300.",
+    icon: <Disc className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find(p => p.id === 'service-cdps'),
+  },
+  {
+    title: "Social Media Posters",
+    description: "Eye-catching posters for birthdays and social media campaigns. Price: ₹250.",
+    icon: <Cake className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find(p => p.id === 'service-posters'),
+  },
+  {
+    title: "Color Correction",
+    description: "Professional color correction to make your photos pop. Price: ₹200.",
+    icon: <Droplets className="h-8 w-8 text-primary" />,
+    image: PlaceHolderImages.find(p => p.id === 'service-color-correction'),
   },
 ];
 
