@@ -57,34 +57,36 @@ export function Services() {
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Our Services</h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-8 mt-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {services.map((service) => (
-            <Card key={service.title} className="flex flex-col overflow-hidden transition-all hover:shadow-lg">
+            <Card key={service.title} className="flex flex-col overflow-hidden transition-all hover:shadow-xl border-border/10 rounded-lg">
               {service.image && (
-                <div className="aspect-video overflow-hidden">
+                <div className="aspect-w-16 aspect-h-9 overflow-hidden">
                     <Image
                       src={service.image.imageUrl}
                       alt={service.image.description}
                       width={600}
-                      height={400}
+                      height={338}
                       className="object-cover w-full h-full transition-transform hover:scale-105"
                       data-ai-hint={service.image.imageHint}
                     />
                 </div>
               )}
-              <CardHeader className="flex-row items-start gap-4">
-                {service.icon}
-                <CardTitle className="mt-2">{service.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-1 pt-0">
-                <p className="text-muted-foreground">{service.description}</p>
-              </CardContent>
-              <CardFooter className="flex flex-col items-start gap-4 pt-4">
-                <p className="text-2xl font-bold">{service.price}</p>
-                <Button onClick={() => handleServiceClick(service.title)} className="w-full">
-                  Book a Service
-                </Button>
-              </CardFooter>
+              <div className="p-4 flex flex-col flex-1">
+                <CardHeader className="flex-row items-start gap-3 p-0">
+                  {service.icon}
+                  <CardTitle className="mt-1.5 text-xl">{service.title}</CardTitle>
+                </CardHeader>
+                <CardContent className="flex-1 pt-2 px-0">
+                  <p className="text-muted-foreground text-sm">{service.description}</p>
+                </CardContent>
+                <CardFooter className="flex flex-col items-start gap-3 p-0 pt-4">
+                  <p className="text-xl font-bold">{service.price}</p>
+                  <Button onClick={() => handleServiceClick(service.title)} className="w-full">
+                    Book a Service
+                  </Button>
+                </CardFooter>
+              </div>
             </Card>
           ))}
         </div>
