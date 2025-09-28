@@ -1,7 +1,6 @@
 import { Header } from '@/app/components/header';
 import { Hero } from '@/app/components/hero';
 import { Services } from '@/app/components/services';
-import { Booking } from '@/app/components/booking';
 import { Footer } from '@/app/components/footer';
 
 export default function Home() {
@@ -11,7 +10,6 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Services />
-        <Booking />
       </main>
       <Footer />
     </div>

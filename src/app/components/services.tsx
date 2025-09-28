@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Brush, Palette, MonitorSmartphone } from "lucide-react";
@@ -25,18 +27,24 @@ const services = [
 ];
 
 export function Services() {
+  const handleServiceClick = (serviceTitle: string) => {
+    const message = `Hello! I'm interested in your "${serviceTitle}" service. Please provide more details.`;
+    const whatsappUrl = `https://wa.me/+918978015826?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   return (
     <section id="services" className="py-16 md:py-24 bg-secondary/50">
       <div className="container">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Our Services</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            From a single logo to a complete brand overhaul, we offer tailored services to meet your creative needs.
+            From a single logo to a complete brand overhaul, we offer tailored services to meet your creative needs. Click a service to get in touch.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 mt-12">
           {services.map((service) => (
-            <Card key={service.title} className="flex flex-col overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1">
+            <Card key={service.title} onClick={() => handleServiceClick(service.title)} className="flex flex-col overflow-hidden transition-all hover:shadow-lg hover:-translate-y-1 cursor-pointer">
               {service.image && (
                 <div className="aspect-video overflow-hidden">
                     <Image
@@ -53,7 +61,7 @@ export function Services() {
                 {service.icon}
                 <CardTitle className="mt-2">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent className="flex-1">
+              <CardContent className="flex-1 pt-0">
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
             </Card>

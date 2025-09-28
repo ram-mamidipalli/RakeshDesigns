@@ -31,7 +31,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center justify-end">
-          <Button onClick={() => scrollTo("booking")}>Book a Service</Button>
+          <Button onClick={() => scrollTo("services")}>Book a Service</Button>
         </div>
       </div>
     </header>
