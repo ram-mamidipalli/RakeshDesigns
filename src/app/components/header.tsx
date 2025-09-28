@@ -17,11 +17,10 @@ export function Header() {
             <Image 
               src="https://res.cloudinary.com/dcstgair1/image/upload/v1759033670/rakesh_logo_2_kubzqw.png" 
               alt="Rakesh Designs Logo" 
-              width={32} 
+              width={128} 
               height={32} 
-              className="h-8 w-8"
+              className="h-8 w-auto"
             />
-            <span className="font-bold sm:inline-block">Rakesh Designs</span>
           </Link>
           <nav className="hidden items-center gap-6 text-sm md:flex">
             <button onClick={() => scrollTo("services")} className="transition-colors hover:text-foreground/80 text-foreground/60">
