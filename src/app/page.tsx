@@ -1,7 +1,6 @@
 import { Header } from '@/app/components/header';
 import { Hero } from '@/app/components/hero';
 import { Services } from '@/app/components/services';
-import { StyleExplorer } from '@/app/components/style-explorer';
 import { Booking } from '@/app/components/booking';
 import { Footer } from '@/app/components/footer';
 
@@ -12,7 +11,6 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <Services />
-        <StyleExplorer />
         <Booking />
       </main>
       <Footer />
