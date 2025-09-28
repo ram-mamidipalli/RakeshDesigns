@@ -26,9 +26,6 @@ export function Header() {
             <button onClick={() => scrollTo("services")} className="transition-colors hover:text-foreground/80 text-foreground/60">
               Services
             </button>
-            <button onClick={() => scrollTo("booking")} className="transition-colors hover:text-foreground/80 text-foreground/60">
-              Booking
-            </button>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end">
