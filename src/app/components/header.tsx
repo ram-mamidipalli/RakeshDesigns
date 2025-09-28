@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Logo } from "@/app/components/icons";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 
 export function Header() {
@@ -11,10 +11,16 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-center">
+      <div className="container flex h-16 max-w-screen-2xl items-center">
         <div className="mr-4 flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Logo className="h-6 w-6 text-primary" />
+            <Image 
+              src="https://res.cloudinary.com/dcstgair1/image/upload/v1759033670/rakesh_logo_2_kubzqw.png" 
+              alt="Rakesh Designs Logo" 
+              width={32} 
+              height={32} 
+              className="h-8 w-8"
+            />
             <span className="font-bold sm:inline-block">Rakesh Designs</span>
           </Link>
           <nav className="hidden items-center gap-6 text-sm md:flex">
