@@ -2,6 +2,7 @@ import { Header } from '@/app/components/header';
 import { Hero } from '@/app/components/hero';
 import { ScrollingText } from '@/app/components/scrolling-text';
 import { Services } from '@/app/components/services';
+import { InstagramCta } from '@/app/components/instagram-cta';
 import { Footer } from '@/app/components/footer';
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <Hero />
         <ScrollingText />
         <Services />
+        <InstagramCta />
       </main>
       <Footer />
     </div>
