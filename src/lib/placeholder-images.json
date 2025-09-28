@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Abstract design background for hero section",
+      "imageUrl": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGRlc2lnbnxlbnwwfHx8fDE3NTg5MzgxMDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abstract design"
+    },
+    {
+      "id": "service-logo-design",
+      "description": "Example of a logo design project",
+      "imageUrl": "https://images.unsplash.com/photo-1716471330463-f475b00f0506?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsb2dvJTIwZGVzaWdufGVufDB8fHx8MTc1ODk2NjU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "logo design"
+    },
+    {
+      "id": "service-branding",
+      "description": "Example of a branding project",
+      "imageUrl": "https://images.unsplash.com/photo-1636247497749-c3162e33e82a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxicmFuZGluZyUyMG1vY2t1cHxlbnwwfHx8fDE3NTkwMzQwNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "branding mockup"
+    },
+    {
+      "id": "service-web-design",
+      "description": "Example of a web design project",
+      "imageUrl": "https://images.unsplash.com/photo-1527443195645-1133f7f28990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWJzaXRlJTIwbW9ja3VwfGVufDB8fHx8MTc1OTAwMjc3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "website mockup"
+    }
+  ]
 }

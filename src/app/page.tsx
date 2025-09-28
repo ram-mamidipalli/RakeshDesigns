@@ -1,3 +1,21 @@
+import { Header } from '@/app/components/header';
+import { Hero } from '@/app/components/hero';
+import { Services } from '@/app/components/services';
+import { StyleExplorer } from '@/app/components/style-explorer';
+import { Booking } from '@/app/components/booking';
+import { Footer } from '@/app/components/footer';
+
 export default function Home() {
-  return <></>;
+  return (
+    <div className="flex flex-col min-h-screen bg-background">
+      <Header />
+      <main className="flex-1">
+        <Hero />
+        <Services />
+        <StyleExplorer />
+        <Booking />
+      </main>
+      <Footer />
+    </div>
+  );
 }
